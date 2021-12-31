@@ -1,0 +1,81 @@
+// register
+POST http://localhost:8000/api/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name" : "Shidiq",
+    "email": "admin@admin.com",
+    "password": "admin123",
+    "password_confirmation": "admin123"
+}
+
+###
+//login
+POST http://localhost:8000/api/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "admin@admin.com",
+    "password": "admin123"
+}
+
+
+###
+//logout
+POST http://localhost:8000/api/logout
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 6|fs8KBJVBTAObQCor1yktcyQayaQqai0TRe8IdUBp
+
+// ------------------------------------------------------------------------------------------------------------ //
+
+###
+// add jabatan
+POST http://localhost:8000/api/posisi/add
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+
+{
+    "user_id" : 2,
+    "position": "Fullstack Developer",
+    "status": "Inactive"
+}
+
+###
+//getlist jabatan
+GET http://localhost:8000/api/posisi
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+
+
+###
+//show jabatan per id
+GET http://localhost:8000/api/posisi/2
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+
+
+
+###
+// update jabatan
+PUT http://localhost:8000/api/posisi/2
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+
+{
+    "position": "Fullstack Web Developer",
+    "status": "Active"
+}
+
+###
+//delete jabatan
+DELETE http://localhost:8000/api/posisi/2
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM

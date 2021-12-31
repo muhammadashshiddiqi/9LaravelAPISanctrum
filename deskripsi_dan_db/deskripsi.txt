@@ -1,0 +1,14 @@
+ini adalah aplikasi RESTful API for User Authentication & CRUD
+yang menggunakan laravel 8 dengan sanctum authentication.
+
+aplikasi ini terdapat 2 table, 
+diantarannya adalah table user dan table posisi.
+table user sebagai login atau authentication aplikasi
+dan table posisi sebagai table detail yang berisikan status, posisi, dan user_id yang berdasarkan dari table user (foreign)
+
+dan aplikasi ini dibuat berdasarkan tools pendukung :
+1. php 7.4
+2. mysql
+3. dan vscode plugin rest client
+
+terima kasih

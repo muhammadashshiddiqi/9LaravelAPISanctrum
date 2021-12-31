@@ -6,6 +6,15 @@ diantarannya adalah table user dan table posisi.
 table user sebagai login atau authentication aplikasi
 dan table posisi sebagai table detail yang berisikan status, posisi, dan user_id yang berdasarkan dari table user (foreign)
 
+cara install run via command:
+1. ketik "composer install"
+2. ketik "cp .env.example .env"
+3. ketik "php artisan key:generate"
+4. update file .env DB_HOST=mysql menjadi DB_HOST=127.0.0.1
+5. ketik "php artisan migrate"
+
+
+
 dan aplikasi ini dibuat berdasarkan tools pendukung :
 1. php 7.4
 2. mysql

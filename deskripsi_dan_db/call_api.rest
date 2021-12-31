@@ -27,7 +27,7 @@ Content-Type: application/json
 POST http://localhost:8000/api/logout
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 6|fs8KBJVBTAObQCor1yktcyQayaQqai0TRe8IdUBp
+Authorization: Bearer 9|ilEQl0bxrOmU04BIj0fW20qDVcg6SVI7FpPTFj5h
 
 // ------------------------------------------------------------------------------------------------------------ //
 
@@ -36,7 +36,7 @@ Authorization: Bearer 6|fs8KBJVBTAObQCor1yktcyQayaQqai0TRe8IdUBp
 POST http://localhost:8000/api/posisi/add
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+Authorization: Bearer 9|ilEQl0bxrOmU04BIj0fW20qDVcg6SVI7FpPTFj5h
 
 {
     "user_id" : 2,
@@ -49,7 +49,7 @@ Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
 GET http://localhost:8000/api/posisi
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+Authorization: Bearer 9|ilEQl0bxrOmU04BIj0fW20qDVcg6SVI7FpPTFj5h
 
 
 ###
@@ -57,7 +57,7 @@ Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
 GET http://localhost:8000/api/posisi/2
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+Authorization: Bearer 9|ilEQl0bxrOmU04BIj0fW20qDVcg6SVI7FpPTFj5h
 
 
 
@@ -66,7 +66,7 @@ Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
 PUT http://localhost:8000/api/posisi/2
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+Authorization: Bearer 9|ilEQl0bxrOmU04BIj0fW20qDVcg6SVI7FpPTFj5h
 
 {
     "position": "Fullstack Web Developer",
@@ -78,4 +78,4 @@ Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
 DELETE http://localhost:8000/api/posisi/2
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 8|jL0CaCbXpySdLLHotydzlkol87PH69XsVRcVblPM
+Authorization: Bearer 9|ilEQl0bxrOmU04BIj0fW20qDVcg6SVI7FpPTFj5h
